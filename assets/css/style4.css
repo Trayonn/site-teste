@@ -1,0 +1,105 @@
+/* ESSE .CSS PERTENCE AO CONTATO.HTML */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.logo{
+    font-size: 50px;
+}
+#background{
+    background-color: white !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0vh;
+    padding: 0vh;
+    width: 100vh;
+    
+    position: relative;
+    
+    padding-left: 100px;  
+   
+}
+
+.navbar-brand i{
+    padding-left: 110px;
+}
+
+.nav-item{
+    padding: 0 10px;
+    margin-right: 20px;
+    margin-left: 50px;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-radius: 1px;
+}
+
+.nav-item:hover{
+    
+    border-bottom: 4px solid;
+    border-top: 4px solid;
+    border-color: white;
+    border-radius: 1px;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-brand{
+    padding-bottom: 20px;
+}
+
+#formulario{width: 300px; height: 300px; margin: 0 auto;}
+
+#home{
+    background-image: url("../images/fundopreto2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+
+#home h1{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.form-group{
+    color: white;
+    text-align: center;
+}
+
+#botão{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+#robologo{
+    margin-top: 10px;
+}
+
+#robologo:hover{
+    margin-top: 10px;
+    color: gold;
+}
+
+.nav-link:hover{
+    color: gold !important;
+    
+}
+
+footer {
+	text-align: center;
+	padding: 5px;
+	color: white;
+	background-color: rgb(31, 29, 29);
+    
+	
+}
+  footer p{
+      margin-top: 15px;
+  }

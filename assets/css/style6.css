@@ -1,0 +1,128 @@
+/* ESSE .CSS PERTENCE AO PROJETOS.HTML */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.logo{
+    font-size: 50px;
+}
+
+body{
+    background-color: white;
+    
+}
+
+#background{
+    background-color: white;
+    background-size: cover ;
+    background-repeat: repeat ;
+    margin: 0px 0 0 0 ;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-left: 100px;  
+}
+
+.navbar-brand i{
+    padding-left: 110px;
+}
+
+.nav-item{
+    padding: 0 10px;
+    margin-right: 20px;
+    margin-left: 50px;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-radius: 1px;
+  
+}
+
+.nav-item:hover{
+    
+    border-bottom: 4px solid;
+    border-top: 4px solid;
+    border-color: white;
+    border-radius: 1px;
+}
+
+.nav-link{
+    color: white !important;
+    
+}
+.nav-link:hover{
+    color: gold !important;
+    
+}
+
+.navbar-brand{
+    padding-bottom: 20px;
+}
+
+#robologo{
+    margin-top: 10px;
+}
+
+#robologo:hover{
+    margin-top: 10px;
+    color: gold;
+}
+
+#home{
+    background-image: url("../images/fundopreto4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1300px;
+    
+}
+
+#home p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+ 
+    padding-top: 80px;
+}
+
+ #p2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+   
+    padding-top: 20px !important;
+  
+}
+ #p3{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  
+    padding-top: 20px !important;
+    padding-bottom: 80px;
+  
+}
+
+#home h1{
+    font-size: 40px;
+    color: gold;
+    text-align: center;
+    white-space:pre-line;
+    padding-top: 80px;
+}
+
+.video{
+    width: 1080px;
+}
+
+footer {
+	text-align: center;
+	padding: 5px;
+	color: white;
+	background-color: rgb(31, 29, 29);
+    
+	
+}
+  footer p{
+      margin-top: 15px;
+  }

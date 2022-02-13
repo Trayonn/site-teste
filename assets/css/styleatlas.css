@@ -1,0 +1,115 @@
+/* ESSE .CSS PERTENCE AO ATLAS.HTML */
+*{
+    font-family: 'Cinzel', serif;
+}
+
+.logo{
+    font-size: 50px;
+}
+
+
+#background{
+    background-color: white;
+    background-size: cover ;
+    background-repeat: repeat ;
+    margin: 0px 0 0 0 ;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    padding-left: 100px;  
+   
+}
+
+.navbar-brand i{
+    padding-left: 110px;
+}
+
+.nav-item{
+    padding: 0 10px;
+    margin-right: 20px;
+    margin-left: 50px;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    border-radius: 1px;
+  
+}
+
+.nav-item:hover{
+    
+    border-bottom: 4px solid;
+    border-top: 4px solid;
+    border-color: white;
+    border-radius: 1px;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.navbar-brand{
+    padding-bottom: 20px;
+}
+
+#robologo{
+    margin-top: 10px;
+}
+
+#centro{
+    background-image: url("../images/fundopreto4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2800px;
+    
+}
+
+#video{
+    width: 1080px;
+}
+
+#centro h1{
+    text-align: center;
+    color: gold;
+    padding-top: 50px;
+}
+#centro p{
+    font-size: 18px;
+    padding-top: 40px;
+    white-space: pre-line;
+    text-align: center;
+    color: white;
+}
+
+#robologo:hover{
+    margin-top: 10px;
+    color: gold;
+}
+
+.nav-link:hover{
+    color: gold !important;
+    
+}
+
+footer {
+	text-align: center;
+	padding: 5px;
+	color: white;
+	background-color: rgb(31, 29, 29);
+    
+	
+}
+  footer p{
+      margin-top: 15px;
+  }
+
+  #atlasimagem2{
+      padding-top: 15px;
+  }
+
+  #atlasimagem3{
+      padding-top: 15px;
+  }
+
+  #frase{
+      font-size: 24px !important;
+  }
